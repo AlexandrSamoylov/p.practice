@@ -1,5 +1,6 @@
 .body {
   width: 1440px;
+  font-family: "Gothic A1", sans-serif;
 }
 .header {
   position: absolute;
@@ -34,8 +35,6 @@
   left: 65%;
   top: 40px;
 
-  font-family: "Gothic A1";
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
@@ -54,8 +53,6 @@
   right: 865px;
   top: 226px;
 
-  font-family: "Gothic A1";
-  font-style: normal;
   font-weight: 400;
   font-size: 80px;
   line-height: 80px;
@@ -71,14 +68,21 @@
   top: 388px;
   bottom: 368px;
 
-  font-family: "Gothic A1";
-  font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 44px;
   /* identical to box height, or 147% */
 
   color: #ffffff;
+}
+.app {
+  position: absolute;
+  height: 66px;
+  left: 144px;
+  top: 457px;
+
+  background: #fc0a7e;
+  border-radius: 3px;
 }
 .img2 {
   position: absolute;
