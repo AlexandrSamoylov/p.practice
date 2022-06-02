@@ -3,15 +3,86 @@
 }
 .header {
   position: absolute;
-height: 800px;
-left: 0%;
-right: 0%;
-top: 0px;
+  height: 800px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
 
-background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
-border-radius: 0px;
+  background: linear-gradient(
+      287.15deg,
+      #450e4b 0%,
+      #3c0c41 24.48%,
+      rgba(207, 0, 99, 0) 100%
+    ),
+    #cf0063;
+  border-radius: 0px;
 }
 .logo {
+  position: absolute;
+  height: 43px;
+  width: 120px;
+  left: 144px;
+  right: 1176px;
+  top: 29px;
+
+  background: url(.png);
+  border-radius: 0px;
 }
 .menu {
+  position: absolute;
+  height: 20px;
+  left: 65%;
+  top: 40px;
+
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+
+  color: #ffffff;
+}
+.li {
+  display: inline;
+  padding-right: 30px;
+}
+.momentum {
+  position: absolute;
+  height: 80px;
+  left: 144px;
+  right: 865px;
+  top: 226px;
+
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+  /* identical to box height, or 100% */
+
+  color: #ffffff;
+}
+.momentum1 {
+  position: absolute;
+  height: 44px;
+  left: 144px;
+  right: 619px;
+  top: 388px;
+  bottom: 368px;
+
+  font-family: "Gothic A1";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height, or 147% */
+
+  color: #ffffff;
+}
+.img2 {
+  position: absolute;
+  height: 245px;
+  right: 44px;
+  top: 120px;
 }
