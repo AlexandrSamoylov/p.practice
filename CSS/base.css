@@ -1,0 +1,10 @@
+.body {
+  width: 100%;
+  max-width: 1440px;
+  font-family: "Gothic A1", sans-serif;
+  color: #ffffff;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}

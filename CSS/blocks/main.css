@@ -1,0 +1,65 @@
+.main-c1 {
+  margin-top: -550px;
+  margin-left: 144px;
+  display: flex;
+  flex-direction: row;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+}
+.momentum {
+  height: 80px;
+
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+  /* identical to box height, or 100% */
+
+  color: #ffffff;
+}
+.momentum1 {
+  height: 44px;
+  margin-top: -80px;
+
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height, or 147% */
+
+  color: #ffffff;
+}
+.app {
+  text-align: center;
+  padding-top: 20px;
+  height: 46px;
+  width: 170px;
+
+  background: #fc0a7e;
+  border-radius: 3px;
+}
+.img2 {
+  margin-top: -100px;
+  height: 245px;
+}
+.container-2 {
+  margin-top: 234px;
+  height: 957px;
+  background: #1b1b1b;
+}
+.main-c2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aenean {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #a8a8a8;
+}
+.nullam {
+}
+.img3 {
+}
