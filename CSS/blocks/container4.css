@@ -57,6 +57,9 @@
   border-radius: 3px;
   border: none;
 }
+.c-4c:active{
+  background: #d20a6b;
+}
 .c-4d {
   font-weight: 400;
   font-size: 16px;
@@ -76,6 +79,10 @@
   border-radius: 3px;
   border: white solid 1px;
   margin-left: 5%;
+}
+.c-4d:active{
+  border-color: #fc0a7e;
+  color: #fc0a7e;
 }
 .otstupc4 {
   margin-top: -270px;

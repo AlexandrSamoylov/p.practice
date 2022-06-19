@@ -41,7 +41,7 @@
   /* identical to box height, or 162% */
 
   text-align: start;
-  height: 70px;
+  height: 68px;
   width: 311px;
   background: #ffffff;
   border-radius: 3px 0px 0px 3px;
@@ -59,4 +59,7 @@
   background: #fc0a7e;
   border-radius: 0px 3px 3px 0px;
   border: none;
+}
+.c-5c_b:active{
+  background: #d20a6b;
 }
