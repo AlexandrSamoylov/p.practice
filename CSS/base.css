@@ -8,4 +8,11 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-
+.animation:hover {
+  animation: image 0.5s forwards;
+}
+@keyframes image {
+  to {
+    transform: scale(1.2);
+  }
+}
