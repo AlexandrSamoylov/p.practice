@@ -8,12 +8,18 @@ body{
 }
 .carousel{
     height: 15%;
+    background-color: rgb(21, 128, 128);
 }
 .carousel-item{
     height: 600px;
 }
 .carousel-item img{
     height: 600px;
+}
+.slider-pic{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 80px 0px black;
 }
 .row{
     margin-top: 40px;
@@ -171,13 +177,13 @@ body{
     color: rgb(4, 187, 187);
     text-decoration: underline;
 }
-@media (max-width: 577px){
+@media (max-width: 576px){
  .event-h6-width{
     display: none;
  }       
         
 }
-@media (min-width:578px) {
+@media (min-width:577px) {
     .event-h6{
         display: none;
      }       
