@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.63234634"
+     inkscape:cx="396.14367"
+     inkscape:cy="635.72756"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="230.69004"
+       y="396.94152"
+       width="0"
+       height="152.075"
+       id="rect4170" />
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ff944c;fill-opacity:1;fill-rule:evenodd;stroke-width:1.98825;stroke-linecap:round;stroke-linejoin:round"
+       id="rect34617"
+       width="46.101795"
+       height="46.101795"
+       x="22.674486"
+       y="202.24207" />
+    <rect
+       style="fill:#ea5f02;fill-opacity:1;fill-rule:evenodd;stroke-width:1.98825;stroke-linecap:round;stroke-linejoin:round"
+       id="rect33687"
+       width="46.10178"
+       height="46.10178"
+       x="68.776306"
+       y="202.24207" />
+    <rect
+       style="fill:#da732e;fill-opacity:1;fill-rule:evenodd;stroke-width:1.98825;stroke-linecap:round;stroke-linejoin:round"
+       id="rect34285"
+       width="46.101768"
+       height="46.101768"
+       x="68.776306"
+       y="156.14029" />
+    <path
+       style="fill:#00abd3;fill-opacity:1;fill-rule:evenodd;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round"
+       id="path19050"
+       sodipodi:type="arc"
+       sodipodi:cx="95.068085"
+       sodipodi:cy="127.97766"
+       sodipodi:rx="94.629967"
+       sodipodi:ry="94.629967"
+       sodipodi:start="0"
+       sodipodi:end="4.6671144"
+       sodipodi:arc-type="arc"
+       d="M 189.69805,127.97766 A 94.629967,94.629967 0 0 1 96.496141,222.59685 94.629967,94.629967 0 0 1 0.48121945,130.83345 94.629967,94.629967 0 0 1 90.785216,33.444663"
+       sodipodi:open="true" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.652px;line-height:1.25;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.3413"
+       x="6.9256711"
+       y="139.13658"
+       id="text5892"
+       transform="scale(0.96943066,1.0315333)"><tspan
+         sodipodi:role="line"
+         id="tspan5890"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi Bold';fill:#000000;fill-opacity:1;stroke-width:1.3413"
+         x="6.9256711"
+         y="139.13658">ЦМИТ</tspan></text>
+    <path
+       style="fill:#68d3ec;fill-opacity:1;fill-rule:evenodd;stroke-width:1.88976;stroke-linecap:round;stroke-linejoin:round"
+       id="path30525"
+       sodipodi:type="arc"
+       sodipodi:cx="95.348976"
+       sodipodi:cy="128.57111"
+       sodipodi:rx="113.77295"
+       sodipodi:ry="110.99509"
+       sodipodi:start="4.6977154"
+       sodipodi:end="6.2469135"
+       sodipodi:arc-type="arc"
+       d="M 93.67958,17.587968 A 113.77295,110.99509 0 0 1 209.04709,124.546"
+       sodipodi:open="true" />
+    <rect
+       style="fill:#9e3f00;fill-opacity:1;fill-rule:evenodd;stroke-width:1.98825;stroke-linecap:round;stroke-linejoin:round"
+       id="rect33909"
+       width="46.10178"
+       height="46.10178"
+       x="114.87807"
+       y="202.24207" />
+    <rect
+       style="fill:#8a400f;fill-opacity:1;fill-rule:evenodd;stroke-width:1.98825;stroke-linecap:round;stroke-linejoin:round"
+       id="rect36071"
+       width="46.10178"
+       height="46.101768"
+       x="114.87807"
+       y="156.14029" />
+    <rect
+       style="fill:#5f2a07;fill-opacity:1;fill-rule:evenodd;stroke-width:2.47296;stroke-linecap:round;stroke-linejoin:round"
+       id="rect36615"
+       width="44.544212"
+       height="92.20356"
+       x="160.97984"
+       y="156.14029" />
+  </g>
+</svg>

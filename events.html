@@ -13,7 +13,7 @@
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a href="main.html"><img class="navbar-brand" src="https://w7.pngwing.com/pngs/531/918/png-transparent-pokemon-logo-pokemon-nintendo-logo.png" alt="REST-FOOD" style="width: 200px;"></a>
+                <a href="main.html"><img class="navbar-brand logo" src="logo.svg" alt="ЦМИТ" style="width: 200px;"></a>
                 <div style="width: 40%;"></div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
                     <span class="navbar-toggler-icon"></span>
@@ -21,13 +21,13 @@
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav mr-2 bm-2">
                         <li class="nav-item" >
-                            <a href="authorization.html" class="nav-link">Авторизация</a>
+                            <button onclick="show('block')" class="regButton nav-link">Регистрация</button>
                         </li>
                         <li class="nav-item">
-                            <a href="sign-in.html" class="nav-link">Вход</a>
+                            <button onclick="showw('block')" class="regButton nav-link">Вход</button>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link"  style="color: antiquewhite;">Наши мероприятия</a>
+                            <a href="events.html" class="nav-link">Наши мероприятия</a>
                         </li>
                         <li class="nav-item" >
                             <a href="feedback.html" class="nav-link">Обратная связь</a>
@@ -37,8 +37,89 @@
             </div>
         </nav>
       </header>
+      <main>
 
+            <div onclick="show('none')" id="gray1"></div>
+        <div id="window1">
+            <!-- Картинка крестика -->
+            <img class="close" src="i/close.png" alt=""  onclick="show('none')">
+            <div class="form">
+                <h2>Регистрация</h2>
+                <form name="f1">
+                    <input type="text" placeholder="Логин (номер телефона или Email)" name="name1" class="input">
+                    <input type="password" placeholder="Пароль" name="pass1" class="input">
+                    <input type="password" placeholder="Подтвердите пароль" name="pass2" class="input">
+                    <input type="submit" value="Зарегистрироваться" class="btn btn-mine">
+                    <div>Уже есть аккаунт?</div>
+                    <div>Попробуйте Войти</div>
+                </form>
+            </div>
+        </div>
+        <div onclick="showw('none')" id="gray2"></div>
+        <div id="window2">
+            <!-- Картинка крестика -->
+            <img class="close" src="i/close.png" alt=""  onclick="showw('none')">
+            <div class="form">
+                <h2>Вход</h2>
+                <form action="index.html" name="f1">
+                    <input type="text" placeholder="Логин (номер телефона или Email)" name="name1" class="input">
+                    <input type="password" placeholder="Пароль" name="pass1" class="input">
+                    <input type="submit" value="Войти" class="btn btn-mine">
+                    <div>Еще нет аккаунта?</div>
+                    <div>Попробуйте Зарегистрироваться</div>
+                </form>
+            </div>
+        </div>
+        <div class="event-card">
+            <div><h1 class="event-h1">мастер-класс по работе с деревом</h1>
+                <h6 class="event-h6-width">Столярное мастерство одно из самых древних ремесел, освоенных человечеством. Как только человек поменял каменную пещеру на деревянный дом, у него появилась потребность в украшении своего жилища и он стал заниматься вырезанием, выпиливанием и соединением отдельных кусков дерева.</h6>
+                <h6 class="event-h6-width">Курс проводится для детей 7+ и 12+ лет интересующихся столярным мастерством. Дети научатся работать с инструментами, станками.</h6>
+                <h6 class="event-h6-width">Будут проходить лекции и практические занятия. На лекциях преподаватели будут делиться своими знаниями и тонкостями мастерства. Во время практических занятий дети будут работать над реальными проектами.</h6>
+                <h6 class="event-h6-width">Мы приглашаем лучших экспертов индустрии и смежных областей. Своим опытом поделятся успешные мастера и преподаватели.</h6>
+                <h6 class="event-h6">Курс проводится для детей 7+ и 12+ лет интересующихся столярным мастерством. Дети научатся работать с инструментами, станками.</h6>  
+            </div>
+            
+            <img class="event-img " src="https://www.graycell.ru/picture/big/stolyar.jpg" alt="">
+        </div>
+        <div class="event-card">
+            <img class="event-img " src="https://top10a.ru/wp-content/uploads/2020/07/527454.jpg" alt="">
+            <div><h1 class="event-h1 l">мастер-класс по работе с глиной</h1>
+                <h6 class="event-h6-width l">Гончарное производство, гончарство — изначально было ремеслом, служившим для изготовления сосудов для приготовления, приёма пищи или для хранения жидких и сыпучих материалов.</h6>
+                <h6 class="event-h6-width l">Работать с глиной ребенку следует предлагать уже с полутора лет. Работать на гончарном круге уже позднее. Польза от гончарного ремесла разнообразна. Это хобби совмещает в себе полезное и приятное.</h6>
+                <h6 class="event-h6-width l">Во время работы на гончарном круге у ребенка развиваются личностные качества - усидчивость, терпение, стремление довести дело до конца, аккуратность. При работе глиной идет развитие мелкой моторики. Создавая изделие и украшая его, ребенок включает наглядно-образное мышление, воображение и фантазию. На протяжении всего процесса происходит концентрация внимания. Творческий процесс объединяет взрослых и детей.</h6>
+                <h6 class="event-h6">Работать с глиной ребенку следует предлагать уже с полутора лет. Работать на гончарном круге уже позднее.</h6>  
+            </div>
+            
+            
+        </div>
+            <div class="event-card">
+                <div><h1 class="event-h1">мастер-класс по работе со смолой</h1>
+                    <h6 class="event-h6-width">Создание предмета декора или украшения с применением эпоксидной смолы это занимательное времяпрепровождение, которое поможет провести время с дорогими вам людям за приятным занятием</h6>
+                    <h6 class="event-h6-width">Курс проводится для взрослых и детей старше 12 лет в сопровождении родител(ей)</h6>
+                    <h6 class="event-h6">Курс проводится для взрослых и детей старше 12 лет в сопровождении родител(ей)</h6>  
+                </div>
+                
+                <img class="event-img " src="https://dkzelenograd.ru/source/affiche/2157/7d6dc3ca96a3c12e82d0ca89c28be063.jpg" alt="">
+            </div>
+        <div>
+            <h3>Что-то заинтересовало?</h3>
+            <h4 class="event-h1">Тогда ждем вас в нашей мастерской <a class="event-a" href="feedback.html">по предварительной записи</a></h4>
+        </div>
+    </main>
+    <footer>
+        <div class="col-sm-4 footer"><a href="main.html"><img class="logo" src="logo.svg" alt="На главную"></a></div>
+        <div class="col-sm-4 footer"><a href="https://www.gosuslugi.ru/"><img style="width: 80px;" src="https://free-png.ru/wp-content/uploads/2021/11/free-png.ru-492-340x340.png" alt="Госуслуги"></a></div>
+        <div class="col-sm-4 last">
+            <div class="h3">Наши соцсети</div>
+            <div class="footer-flex">
+                <div><a href="https://vk.com/cmitvbg"><img class="footer-icon" src="https://cdn-icons-png.flaticon.com/512/25/25684.png" alt=""></a></div>
+                <div><a href="https://t.me/cmitvbg"><img class="footer-icon" src="data:image/png;base64,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" alt=""></a></div>
+                <div><a href="https://www.youtube.com/channel/UCG3ssIst2PGhaP3LxQW-deA"><img class="footer-icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384028.png" alt=""></a></div>
+            </div>
+        </div>
+     </footer>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <script src="js/file.js"></script>
 </body>
 </html>

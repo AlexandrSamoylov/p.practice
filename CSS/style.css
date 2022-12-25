@@ -1,3 +1,11 @@
+body{
+    background-color: rgb(250, 241, 227);
+    width: auto;
+}
+.logo{
+    height: 100px;
+    margin: 0px;
+}
 .carousel{
     height: 15%;
 }
@@ -8,7 +16,7 @@
     height: 600px;
 }
 .row{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .card-img-top{
     border-radius: 50%;
@@ -16,8 +24,12 @@
     width: 150px;
 }
 .card{
+    margin: 10px 5px;
     text-align: center;
+    border: 3px solid rgb(151, 86, 0);
+    border-radius: 10px;
 }
+
 .button{
     border: solid;
     background-color: white;
@@ -29,6 +41,213 @@
 .btn-secondary:focus{
     background-color: rgb(196, 118, 15);
 }
+.regButton {
+    background: none;
+    border: 0px;
+}
+.regButton:active{
+    border: 0px;
+}
+
+#window1 {
+    width: 350px;
+    height: 300px;
+    margin: 40px auto;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    z-index: 150; 
+    display: none;
+     position: fixed; 
+     left: 0;
+     right: 0;
+     top:0;
+     bottom: 0;
+} 
+#window2 {
+    width: 350px;
+    height: 270px;
+    margin: 40px auto;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    z-index: 150; 
+    display: none;
+     position: fixed; 
+     left: 0;
+     right: 0;
+     top:0;
+     bottom: 0;
+} 
+
 .form{
-    
+    width: 275px; 
+    margin: -15px auto 20px auto; 
+    text-align: center;} 
+
+.input{
+        width: 280px;
+        padding: 5px; 
+        margin-bottom: 10px; } 
+
+.close{margin: 10px 0 0 320px;
+    cursor: pointer;
+    border: 1px solid #ccc; padding: 2px; background: #ccc;} 
+
+.close:hover{
+    background: #fff;} 
+
+#gray1{opacity: 0.8; 
+    padding: 15px;
+    background-color: rgba(1,1,1,0.75); 
+    position: fixed; 
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0; 
+    display: none; 
+    z-index:100; 
+    overflow: auto; } 
+
+#gray2{opacity: 0.8; 
+    padding: 15px;
+    background-color: rgba(1,1,1,0.75); 
+    position: fixed; 
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0; 
+    display: none; 
+    z-index:100; 
+    overflow: auto; } 
+   
+.btn-mine{
+    border: 3px solid;
+    border-color: rgb(151, 86, 0);
+    background-color: antiquewhite;
+    color: rgb(151, 86, 0);
+    border-radius: 10px;
+}
+
+.event-card{
+    display: flex;
+    width: 80%;
+    background-color: white;
+    border: 3px rgb(151, 86, 0) solid;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: flex;
+}
+.event-h1{
+    color: rgb(151, 86, 0);
+    padding-left: 10px;
+    display: block;
+
+}
+.event-h6{
+    color: rgb(151, 86, 0);
+    padding-left: 10px;
+    display: block;
+
+}
+.event-h6-width{
+    color: rgb(151, 86, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    display: block;
+}
+.event-img{
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.event-a{
+    text-decoration: none;
+    color: rgb(4, 187, 187);
+}
+.event-a:hover{
+    color: rgb(4, 187, 187);
+    text-decoration: underline;
+}
+@media (max-width: 577px){
+ .event-h6-width{
+    display: none;
+ }       
+        
+}
+@media (min-width:578px) {
+    .event-h6{
+        display: none;
+     }       
+            
+}
+.feedback-form{
+    background-color: white;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    border: 3px rgb(151, 86, 0) solid;
+    border-radius: 15px;
+}
+.li4{
+    display: block;
+    margin-top: 10px;
+}
+.map{
+    text-align: left;
+}
+footer{
+    box-shadow: rgb(15, 64, 88);
+    color: aqua;
+    background-color: #343a40;
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer{
+    margin: 10px;
+    margin-left: auto;
+}
+.footer-icon{
+    width: 40px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.footer-flex{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.last{
+    text-align: left;
+}
+.btn-mine:hover{
+    animation: btn-change 1S forwards;
+
+}
+@keyframes btn-change {
+    to{
+        background-color: rgb(4, 187, 187);
+border-color: rgb(3, 70,70);
+color: rgb(3, 70, 70);
+    }
+}
+.btn-mine:active{
+    animation: btn-active 0.1s forwards;
+}
+@keyframes btn-active {
+    from{
+        background-color: rgb(4, 187, 187);
+        border-color: rgb(3, 70,70);
+        color: rgb(3, 70, 70);  
+    }
+    to{
+        box-shadow: 0px 0px 5px 5px rgb(4, 187, 187);
+    }
 }
